@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Table with Rowspan, Colspan and Borders (No CSS)</title>
+</head>
+<body>
+
+    <h2 align="center">Student Records Table</h2>
+
+    <table border="2" cellpadding="10" cellspacing="0" align="center">
+        <tr>
+            <th>Roll No</th>
+            <th>Name</th>
+            <th>Subject</th>
+            <th>Marks</th>
+            <th>Grade</th>
+        </tr>
+
+        <tr>
+            <td rowspan="2">101</td>
+            <td rowspan="2">Tushar</td>
+            <td>Math</td>
+            <td>88</td>
+            <td rowspan="2">A</td>
+        </tr>
+        <tr>
+            <td>Science</td>
+            <td>85</td>
+        </tr>
+
+        <tr>
+            <td>102</td>
+            <td>Aarti</td>
+            <td colspan="2">Absent</td>
+            <td>F</td>
+        </tr>
+
+        <tr>
+            <td rowspan="3">103</td>
+            <td rowspan="3">Rohan</td>
+            <td>Math</td>
+            <td>91</td>
+            <td rowspan="3">A+</td>
+        </tr>
+        <tr>
+            <td>Science</td>
+            <td>89</td>
+        </tr>
+        <tr>
+            <td>English</td>
+            <td>94</td>
+        </tr>
+
+        <tr>
+            <td>104</td>
+            <td>Sneha</td>
+            <td>Math</td>
+            <td>77</td>
+            <td>B</td>
+        </tr>
+
+        <tr>
+            <td>105</td>
+            <td>Pratik</td>
+            <td>English</td>
+            <td>82</td>
+            <td>B+</td>
+        </tr>
+
+        <tr>
+            <td colspan="5"><b>End of Table - Total Students: 5</b></td>
+        </tr>
+    </table>
+
+</body>
+</html>

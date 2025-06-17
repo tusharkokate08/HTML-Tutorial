@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+<body>
+    <h2>Registration Form</h2>
+    <form action="#" method="post" enctype="multipart/form-data">
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname" required><br><br>
+
+        <label for="lname">Last Name:</label><br>
+        <input type="text" id="lname" name="lname" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="dob">Date of Birth:</label><br>
+        <input type="date" id="dob" name="dob"><br><br>
+
+        <label for="gender">Gender:</label><br>
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female
+        <input type="radio" name="gender" value="Other"> Other<br><br>
+
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone"><br><br>
+
+        <label for="address">Address:</label><br>
+        <textarea id="address" name="address" rows="3" cols="30"></textarea><br><br>
+
+        <label for="course">Course:</label><br>
+        <select id="course" name="course">
+            <option value="cs">Computer Science</option>
+            <option value="it">Information Technology</option>
+            <option value="ece">Electronics</option>
+        </select><br><br>
+
+        <label>Mode of Learning:</label><br>
+        <input type="radio" name="mode" value="Online"> Online
+        <input type="radio" name="mode" value="Offline"> Offline
+        <input type="radio" name="mode" value="Hybrid"> Hybrid<br><br>
+
+        <label for="photo">Upload Photo:</label><br>
+        <input type="file" id="photo" name="photo" accept="image/*"><br><br>
+
+        <label for="terms">
+            <input type="checkbox" id="terms" name="terms" required>
+            I agree to the terms and conditions
+        </label><br><br>
+
+        <input type="submit" value="Register">
+        <input type="reset" value="Clear">
+    </form>
+</body>
+</html>
