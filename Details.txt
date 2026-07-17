@@ -1,0 +1,12 @@
+This folder contains a collection of HTML programs covering the fundamental and advanced concepts of HTML.
+
+Basic HTML document structure and syntax.
+Headings, paragraphs, and text formatting.
+Links, images, and multimedia elements.
+Lists, tables, and semantic HTML tags.
+Forms, input fields, and validation basics.
+Navigation and page layout elements.
+HTML5 features and modern tags.
+Practical examples and mini exercises.
+Best practices for writing clean HTML code.
+A complete learning resource for HTML beginners.
